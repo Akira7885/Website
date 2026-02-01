@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Child Labour: A Crime Against Childhood</title>
+  <style>
+    :root {
+      --bg: #f6f6f6;
+      --text: #222;
+      --muted: #555;
+      --accent-red: #b71c1c;   /* subtle red */
+      --accent-blue: #2980b9;  /* added blue accent */
+      --card: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Times New Roman", Times, serif; /* Changed to Roman font */
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.9;
+      font-size: 18px;   /* bigger base font */
+    }
+
+    header {
+      padding: 4rem 1.5rem 3rem;
+      background: #fff;
+      border-bottom: 4px solid var(--accent-red);
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 1rem;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    header p {
+      max-width: 720px;
+      margin: auto;
+      color: var(--muted);
+      font-size: 1.2rem;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+
+    h2 {
+      color: var(--accent-red);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      text-transform: capitalize;
+    }
+
+    p { 
+      margin-bottom: 1.5rem; 
+      font-size: 1.18rem;
+    }
+
+    .divider {
+      width: 70px;
+      height: 4px;
+      background: var(--accent-blue);
+      margin: 1.5rem 0 2rem;
+      border-radius: 2px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1.8rem;
+      border-left: 6px solid var(--accent-red);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: var(--accent-red);
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      background: var(--accent-blue);
+      color: #fff;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      font-size: 1.1rem;
+    }
+
+    .final-message {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    /* ===== Responsive tweaks ===== */
+    @media (max-width: 768px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.7rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Child Labour: A Crime Against Childhood</h1>
+    <p>
+      Millions of children are forced to work in silence—while their right to learn, play, and grow is taken away.
+      Awareness is the first step. Responsibility is the next.
+    </p>
+  </header>
+
+  <section>
+    <h2>What Is Child Labour?</h2>
+    <div class="divider"></div>
+    <p>
+      Child labour refers to the employment of children in work that deprives them of their childhood, education,
+      health, and dignity. It includes work that is physically, mentally, or morally harmful and interferes with a
+      child’s right to attend school and develop fully.
+    </p>
+    <p>
+      When children are forced to work due to poverty or exploitation, and when that work replaces education,
+      it becomes a serious violation of human rights. The consequences of child labour are long-term and affect
+      the overall development of society, as these children often grow up without the skills or opportunities to
+      break the cycle of poverty.
+    </p>
+    <p>
+      Child labour is not limited to a single type of work; it ranges from hazardous factory work and domestic servitude
+      to street vending and agricultural labour. Understanding the many forms it takes is essential to tackling it effectively.
+    </p>
+  </section>
+
+  <section>
+    <h2>Why Does Child Labour Exist?</h2>
+    <div class="divider"></div>
+    <div class="cards">
+      <div class="card">
+        <h3>Poverty</h3>
+        <p>Families struggling to meet basic needs often depend on children’s income for survival. The lack of financial stability forces many parents to make difficult decisions, putting children into labour instead of school.</p>
+      </div>
+      <div class="card">
+        <h3>Lack of Education</h3>
+        <p>When education is inaccessible, unaffordable, or undervalued, children are pushed into work. Quality schools, trained teachers, and affordable schooling are critical solutions.</p>
+      </div>
+      <div class="card">
+        <h3>Social Inequality</h3>
+        <p>Marginalised communities face discrimination and limited opportunities, making children in these groups more vulnerable to exploitation.</p>
+      </div>
+      <div class="card">
+        <h3>Weak Enforcement</h3>
+        <p>Laws exist, but weak enforcement and corruption allow child labour to persist. Strong monitoring, reporting mechanisms, and strict penalties are needed.</p>
+      </div>
+      <div class="card">
+        <h3>Poor Awareness</h3>
+        <p>Many families are unaware of their children's rights or the long-term harm of child labour. Community education campaigns can change mindsets.</p>
+      </div>
+      <div class="card">
+        <h3>Exploitation by Employers</h3>
+        <p>Some businesses exploit children because they are cheap labor. Encouraging ethical business practices and certifications can reduce this problem.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Real Lives Behind the Issue</h2>
+    <div class="divider"></div>
+    <p>
+      Behind every statistic is a real child whose life has been shaped by circumstances beyond their control.
+      In <em>Lost Spring</em> by Anees Jung, children like Saheb and Mukesh reveal the human face of child labour.
+    </p>
+    <p>
+      Saheb survives by ragpicking, his childhood lost to survival. Mukesh works in hazardous conditions yet
+      dreams of becoming a motor mechanic—representing a quiet hope for change.
+    </p>
+    <p>
+      Every child has potential, but child labour strips them of opportunities to develop talents, skills, and education.
+      Stories like these highlight the urgency for immediate action and long-term solutions.
+    </p>
+  </section>
+
+<!-- ===== ADDED IMAGE SECTION ===== -->
+<section>
+  <h2>Public Responses & Awareness</h2>
+  <div class="divider"></div>
+
+  <div class="response-images">
+    <div>
+      <a href="images/response%20one.png" target="_blank">
+        <img src="images/response%20one.png" alt="Response one">
+      </a>
+      <p>Student awareness poster</p>
+    </div>
+
+    <div>
+      <a href="images/response%20two.png" target="_blank">
+        <img src="images/response%20two.png" alt="Response two">
+      </a>
+      <p>Survey responses from the public</p>
+    </div>
+
+    <div>
+      <a href="images/response%20three.png" target="_blank">
+        <img src="images/response%20three.png" alt="Response three">
+      </a>
+      <p>Community awareness activity</p>
+    </div>
+
+    <div>
+      <a href="images/response%20four.png" target="_blank">
+        <img src="images/response%20four.png" alt="Response four">
+      </a>
+      <p>Education-focused opinions</p>
+    </div>
+  </div>
+</section>
+
+  <section>
+    <h2>what our survey reveals</h2>
+    <div class="divider"></div>
+    <ul>
+      <li>High awareness of child labour as a social issue.</li>
+      <li>Poverty is identified as the primary cause.</li>
+      <li>Education is considered the most effective solution.</li>
+      <li>Responsibility is shared by government, society, and individuals.</li>
+      <li>Community engagement and ethical businesses play a crucial role in eliminating child labour.</li>
+      <li>Consistent enforcement of laws and accessible social services are essential.</li>
+    </ul>
+    <p>
+      Despite awareness, child labour continues—highlighting the gap between knowing the problem and acting on it.
+      Concerted effort from all sectors is required to close this gap and ensure a safe, nurturing environment for children.
+    </p>
+  </section>
+
+  <section>
+    <h2>Prevention and Responsibility</h2>
+    <div class="divider"></div>
+    <div class="cards">
+      <div class="card">
+        <h3>Government</h3>
+        <p>Strict law enforcement, quality education, support for vulnerable families, and accessible social services are essential to prevent child labour and protect children’s rights.</p>
+      </div>
+      <div class="card">
+        <h3>Society</h3>
+        <p>Communities must refuse to normalize child labour, engage in awareness campaigns, support ethical businesses, and create safe spaces for children to learn and play.</p>
+      </div>
+      <div class="card">
+        <h3>Individuals</h3>
+        <p>Parents, teachers, and citizens can make a difference by reporting exploitation, mentoring children, supporting education programs, and advocating for children’s rights.</p>
+      </div>
+      <div class="card">
+        <h3>Businesses</h3>
+        <p>Employers should adopt ethical labor practices, avoid child exploitation, and contribute to community education and social welfare programs.</p>
+      </div>
+      <div class="card">
+        <h3>NGOs & Activists</h3>
+        <p>Organizations and activists play a vital role by raising awareness, lobbying for law enforcement, and providing rehabilitation and education programs for child labourers.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- ===== ADDED FAQ ===== -->
+<section>
+  <h2>Frequently Asked Questions</h2>
+  <div class="divider"></div>
+
+  <h3>What age is considered child labour in India?</h3>
+  <p>Children below 14 years engaged in hazardous or exploitative work.</p>
+
+  <h3>Can anyone report child labour?</h3>
+  <p>Yes. Any citizen can report it through Childline (1098).</p>
+
+  <h3>Is education compulsory?</h3>
+  <p>Yes. Free and compulsory education is a legal right.</p>
+</section>
+
+<section>
+  <h2>Child Helpline & Support (India)</h2>
+  <div class="divider"></div>
+
+  <p>
+    If you witness or suspect any form of child labour, abuse, or exploitation,
+    it is important to act immediately. Reporting such cases can save a child’s
+    future and ensure they receive protection, education, and rehabilitation.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Childline (24×7 Emergency Helpline):</strong> <br>
+      Dial <strong>1098</strong> — available across India for children in distress.
+    </li>
+    <li>
+      <strong>Ministry of Labour & Employment Helpline:</strong> <br>
+      <strong>1800-11-8008</strong> — for reporting child labour violations.
+    </li>
+    <li>
+      <strong>CRY (Child Rights and You):</strong> <br>
+      <a href="https://www.cry.org" target="_blank">www.cry.org</a>
+    </li>
+    <li>
+      <strong>Bachpan Bachao Andolan:</strong> <br>
+      Works actively against child labour and trafficking in India.
+    </li>
+  </ul>
+
+  <p>
+    Reporting child labour is not interference—it is responsibility.
+    One call can help return a child to school and away from exploitation.
+  </p>
+</section>
+
+
+<footer>
+  <div class="final-message">
+    <p>Child labour exists because society allows it.</p>
+    <p>A child belongs in a classroom, not a workplace.</p>
+  </div>
+</footer>
+
+<footer>
+    <div class="final-message">
+      <p>
+        Child labour does not survive because children choose it. It survives because adults allow it to continue.
+      </p>
+      <p>
+        A child’s place is in a classroom, not a workplace.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
