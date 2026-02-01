@@ -1,2 +1,2 @@
 # Website
-About This Website is made by Aryan Tamhankar of class XII for a school project. This is a Child labour awareness and prevention website. ISpuAUDWPUF OGU
+This Website is made by 'Aryan Tamhankar', Shantanu Tamhankar, Stephen PJ, and Sumeet Vijay of class XII for a school project. This is a Child labour awareness and prevention website. WE HOPE YOU LIKE THIS PLEASE LIKE IT PLEASE...
